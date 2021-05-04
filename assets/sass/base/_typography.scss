@@ -1,51 +1,54 @@
 ///
-/// Ethereal by HTML5 UP
+/// Massively by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Typography */
+/* Type */
 
 	html {
-		font-size: 18pt;
-		font-size: 1vmax;
+		font-size: 16pt;
 
 		@include breakpoint('<=xlarge') {
 			font-size: 12pt;
-			font-size: 1.1vmax;
 		}
 
 		@include breakpoint('<=large') {
 			font-size: 11pt;
-			font-size: 1.5vmax;
+		}
+
+		@include breakpoint('<=xxsmall') {
+			font-size: 10pt;
 		}
 	}
 
-	body, input, select, textarea {
+	body {
 		color: _palette(fg);
+	}
+
+	body, input, select, textarea {
 		font-family: _font(family);
-		font-size: 1rem;
 		font-weight: _font(weight);
-		line-height: 1.65;
+		font-size: 1rem;
+		line-height: 2.375;
 	}
 
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
-			'border-bottom-color #{_duration(transition)} ease-in-out'
+			'background-color #{_duration(transition)} ease-in-out',
+			'border-color #{_duration(transition)} ease-in-out',
+			'box-shadow #{_duration(transition)} ease-in-out'
 		));
-		color: inherit;
 		border-bottom: dotted 1px;
 		text-decoration: none;
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent3);
 		}
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 	}
 
@@ -54,78 +57,40 @@
 	}
 
 	p {
+		text-align: justify;
 		margin: 0 0 _size(element-margin) 0;
-
-		body.is-ie & {
-			width: 100%;
-		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
 		font-family: _font(family-heading);
 		font-weight: _font(weight-heading);
-		line-height: 1.3;
+		line-height: 1.5;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		letter-spacing: -0.05em;
 
 		a {
+			border-bottom: 0;
 			color: inherit;
 			text-decoration: none;
 		}
 	}
 
-	h1, h2, h3 {
-		&.major {
-			position: relative;
-
-			&:after {
-				content: '';
-				position: absolute;
-				left: 0;
-				width: 3.5rem;
-				height: 0.1rem;
-				background-color: _palette(border);
-			}
-		}
-	}
-
 	h1 {
-		font-size: 3rem;
-		line-height: 1.2;
-
-		&.major {
-			margin: 0 0 (_size(element-margin) * 1.75) 0;
-
-			&:after {
-				bottom: -1.325rem;
-			}
-		}
+		font-size: 4rem;
+		line-height: 1.1;
+		margin: 0 0 _size(element-margin) 0;
 	}
 
 	h2 {
 		font-size: 1.75rem;
-		line-height: 1.2;
-
-		&.major {
-			margin: 0 0 (_size(element-margin) * 1.325) 0;
-
-			&:after {
-				bottom: -1.2rem;
-			}
-		}
+		line-height: 1.3;
+		margin: 0 0 (_size(element-margin) * 0.75) 0;
 	}
 
 	h3 {
-		font-size: 1.325rem;
-
-		&.major {
-			margin: 0 0 (_size(element-margin) * 1.25) 0;
-
-			&:after {
-				bottom: -0.75rem;
-			}
-		}
+		font-size: 1.25rem;
+		margin: 0 0 (_size(element-margin) * 0.75) 0;
 	}
 
 	h4 {
@@ -137,7 +102,7 @@
 	}
 
 	h6 {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	sub {
@@ -153,17 +118,17 @@
 	}
 
 	blockquote {
-		border-left: solid 0.25rem _palette(border);
+		border-left: solid 4px;
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
 	}
 
 	code {
-		background: _palette(border-bg);
 		border-radius: _size(border-radius);
+		border: solid 2px;
 		font-family: _font(family-fixed);
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
 	}
@@ -171,23 +136,25 @@
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: _font(family-fixed);
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin: 0 0 _size(element-margin) 0;
- 		white-space: pre-wrap;
 
 		code {
 			display: block;
-			line-height: 1.625;
+			line-height: 1.75;
 			padding: 1rem 1.5rem;
 			overflow-x: auto;
-			margin: 0;
 		}
 	}
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px _palette(border);
-		margin: (_size(element-margin) * 1.25) 0;
+		border-bottom: solid 2px;
+		margin: (_size(element-margin) * 1.5) 0;
+
+		&.major {
+			margin: (_size(element-margin) * 2.5) 0;
+		}
 	}
 
 	.align-left {
@@ -202,70 +169,45 @@
 		text-align: right;
 	}
 
-	@include breakpoint('<=small') {
-		html {
-			font-size: 12pt;
+	@mixin color-typography($p: null) {
+		@if $p != null {
+			color: _palette($p, fg);
 		}
 
-		h1 {
-			font-size: 2.25rem;
-			line-height: 1.2;
+		input, select, textarea {
+			color: _palette($p, fg-bold);
+		}
 
-			&.major {
-				margin: 0 0 (_size(element-margin) * 1.75) 0;
+		a {
+			color: _palette($p, fg-bold);
+			border-bottom-color: transparentize(_palette($p, fg), 0.5);
 
-				&:after {
-					bottom: -1.325rem;
-				}
+			&:hover {
+				border-bottom-color: transparent;
+				color: _palette($p, accent) !important;
 			}
 		}
 
-		h2 {
-			font-size: 1.5rem;
-			line-height: 1.2;
-
-			&.major {
-				margin: 0 0 (_size(element-margin) * 1.325) 0;
-
-				&:after {
-					bottom: -1.2rem;
-				}
-			}
-		}
-
-		h3 {
-			font-size: 1rem;
-
-			&.major {
-				margin: 0 0 (_size(element-margin) * 1.25) 0;
-
-				&:after {
-					bottom: -0.75rem;
-				}
-			}
-		}
-
-		h4 {
-			font-size: 1rem;
-		}
-
-		h5 {
-			font-size: 0.9rem;
-		}
-
-		h6 {
-			font-size: 0.7rem;
+		strong, b {
+			color: _palette($p, fg-bold);
 		}
 
 		h1, h2, h3, h4, h5, h6 {
-			br {
-				display: none;
-			}
+			color: _palette($p, fg-bold);
+		}
+
+		blockquote {
+			border-left-color: _palette($p, border);
+		}
+
+		code {
+			background: _palette($p, border-bg);
+			border-color: _palette($p, border);
+		}
+
+		hr {
+			border-bottom-color: _palette($p, border);
 		}
 	}
 
-	@include breakpoint('<=xxsmall') {
-		html {
-			font-size: 11pt;
-		}
-	}
+	@include color-typography;
