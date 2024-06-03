@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Quanwei (Leo) Liu",
-    "label": "PhD Candidate",
+    "label": "PhD student",
     "image": "",
     "email": "quanwei.liu@my.jcu.edu.au",
     "phone": "",
@@ -9,7 +9,7 @@
     "summary": "A optimistic boy",
     "location": {
       "address": "James Cook University, Smithfield, QLD",
-      "postalCode": "CA 94115",
+      "postalCode": "4870",
       "city": "Cairns",
       "countryCode": "Australia",
       "region": "Queensland"
@@ -36,24 +36,53 @@
   ],
   "education": [
     {
+      "institution": "Henan University of Engineering",
+      "location": "Henan, China",
+      "url": "https://www.haue.edu.cn/",
+      "area": "College of Resources and Environment",
+      "studyType": "Bachelor student",
+      "startDate": "2016-09",
+      "endDate": "2020-06",
+      "score": "3.4/4.0",
+      "courses": ["Exploration Technology and Engineering"]
+    },
+    {
+      "institution": "China University of Geosciences, Wuhan, China",
+      "location": "Wuhan, China",
+      "url": "https://www.cug.edu.cn/",
+      "area": "School of Geophysics and Geomatics",
+      "studyType": "Master student",
+      "startDate": "2020-09",
+      "endDate": "2023-06",
+      "score": "3.7/4.0",
+      "courses": ["Resources and Environment"]
+    },
+    {
       "institution": "James Cook University",
       "location": "James Cook University, Smithfield, QLD, Australia",
       "url": "https://www.jcu.edu.au/",
       "area": "College of Science and Engineering",
       "studyType": "PhD student",
       "startDate": "2023",
-      "endDate": "-",
+      "endDate": "today",
       "score": "",
       "courses": ["Engineering and Related Technologies"]
     }
   ],
   "awards": [
     {
-      "title": "China National Scholarship",
-      "date": "2023-1-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "National Encouragement Scholarship (China)",
+      "date": "2017-11-30",
+      "awarder": "The Education Department of Henan Province",
+      "url": "",
+      "summary": "2016-2017.'"
+    },
+    {
+      "title": "National Scholarship (China)",
+      "date": "2022-12",
+      "awarder": "Ministry of Education of the People's Republic of China",
+      "url": "",
+      "summary": "2021-2022.'"
     }
   ],
   "certificates": [
@@ -65,39 +94,11 @@
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
+      "name": "Deep Learning",
       "date": "2018-01-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
@@ -129,12 +130,9 @@
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Deep Learning",
+        "Pytorch"
       ]
     }
   ],
@@ -162,17 +160,27 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
+      "name": "Professor Yanni Dong",
+      "url": "https://rsit.top/",
+      "icon": "fa-solid fa-thumbtack",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
+      "name": "Professor Tao (Kevin) Huang",
+      "url": "https://www.taoicclab.com/",
+      "icon": "fa-solid fa-laptop",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
+    {
+      "name": "Research on Deep Migration Measure Learning Method for Hyperspectral Remote Sensing Image Classification",
+      "summary": "This project aims to revolutionize the theory and practice of sensing and monitoring by developing novel Artificial Intelligence and Internet of Things technologies. This project expects to generate new knowledge in Artificial Intelligence of Things by combining sensing, machine learning, and big data analytics. Expected outcomes of this project include novel low-cost sensing methods and new hybrid machine-learning models for predictive sensory data analytics. This should provide significant benefits, such as substantially reduced operating and service costs and improved accuracy for real-time monitoring in the fields where cheap-to-implement and easy-to-service monitoring systems over large geographical areas are imperative.",
+      "highlights": ["Australian Research Council Discovery Project"],
+      "startDate": "2018",
+      "endDate": "-",
+      "url": "https://rsit.top/jijin.html"
+    },
     {
       "name": "Low-cost Sensing Methods and Hybrid Learning Models",
       "summary": "This project aims to revolutionize the theory and practice of sensing and monitoring by developing novel Artificial Intelligence and Internet of Things technologies. This project expects to generate new knowledge in Artificial Intelligence of Things by combining sensing, machine learning, and big data analytics. Expected outcomes of this project include novel low-cost sensing methods and new hybrid machine-learning models for predictive sensory data analytics. This should provide significant benefits, such as substantially reduced operating and service costs and improved accuracy for real-time monitoring in the fields where cheap-to-implement and easy-to-service monitoring systems over large geographical areas are imperative.",
