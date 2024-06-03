@@ -24,14 +24,20 @@
   },
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Track and field team of Resources and Environment College of Henan University of Engineering",
+      "location": "Henan, China",
+      "position": "Member",
+      "date": "2017.03",
+      "summary": "Chatting with the elderly at the Longhu Home for the Elderly and celebrating their birthdays.",
+      "highlights": ["The elders are very happy to chat with us."]
+    },
+    {
+      "organization": "Volunteer association of Henan University of Engineering",
+      "location": "Henan, China",
+      "position": "Member",
+      "date": "2018.08",
+      "summary": "Going to Zhengzhou University of Technology to play basketball with children with disabilities.",
+      "highlights": ["The children are very happy to chat with us."]
     }
   ],
   "education": [
@@ -59,12 +65,12 @@
     },
     {
       "institution": "James Cook University",
-      "location": "James Cook University, Smithfield, QLD, Australia",
+      "location": "Cairns, Australia",
       "url": "https://www.jcu.edu.au/",
       "area": "College of Science and Engineering",
       "studyType": "PhD student",
       "startDate": "2023",
-      "endDate": "today",
+      "endDate": "2027",
       "score": "",
       "courses": ["Engineering and Related Technologies"]
     }
@@ -87,18 +93,11 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": "",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Deep Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
     }
   ],
   "publications": [
@@ -126,13 +125,15 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Remote sensing image processing",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Machine Learning",
-        "Deep Learning",
-        "Pytorch"
+        "Machine learning",
+        "Deep learning",
+        "Image fusion",
+        "Classification",
+        "Segmentation"
       ]
     }
   ],
@@ -163,20 +164,20 @@
       "name": "Professor Yanni Dong",
       "url": "https://rsit.top/",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "My Master primary supervisor."
     },
     {
       "name": "Professor Tao (Kevin) Huang",
       "url": "https://www.taoicclab.com/",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "My PhD primary supervisor."
     }
   ],
   "projects": [
     {
       "name": "Research on Deep Migration Measure Learning Method for Hyperspectral Remote Sensing Image Classification",
-      "summary": "This project aims to revolutionize the theory and practice of sensing and monitoring by developing novel Artificial Intelligence and Internet of Things technologies. This project expects to generate new knowledge in Artificial Intelligence of Things by combining sensing, machine learning, and big data analytics. Expected outcomes of this project include novel low-cost sensing methods and new hybrid machine-learning models for predictive sensory data analytics. This should provide significant benefits, such as substantially reduced operating and service costs and improved accuracy for real-time monitoring in the fields where cheap-to-implement and easy-to-service monitoring systems over large geographical areas are imperative.",
-      "highlights": ["Australian Research Council Discovery Project"],
+      "summary": "",
+      "highlights": ["国家自然科学基金面上项目"],
       "startDate": "2018",
       "endDate": "-",
       "url": "https://rsit.top/jijin.html"
