@@ -9,10 +9,9 @@ profile:
   image: profilePhoto/quanweiliu.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Quanwei (Leo) Liu, PhD student</p>
+    <p>Quanwei (Leo) Liu</p>
     <p>quanwei.liu@my.jcu.edu.au</p>
-    <p>College of Science and Engineering</p>
-    <p>James Cook University</p>
+    <p>College of Science and Engineering, James Cook University</p>
     <p>Cairns, QLD, Australia</p>
 
 news: true # includes a list of news items
