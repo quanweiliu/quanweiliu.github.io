@@ -4,6 +4,13 @@ title: about
 permalink: /
 subtitle: <a href='https://www.taoicclab.com/'>Affiliations</a>. James Cook University, Cairns, Australia.
 
+
+cv_pdf: example_pdf.pdf
+
+toc:
+  sidebar: left
+
+
 profile:
   align: right
   image: profilePhoto/quanweiliu.jpg
